@@ -1,0 +1,52 @@
+.img{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.heading{
+    font-size: 60px;
+    text-decoration-color: black;
+    text-decoration: black;
+    margin-right:40rem;
+    margin-left: 40rem;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.headingwrapper{
+    justify-self: center;
+    align-self: center;
+    background-color: grey;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.subheading{
+    font-size: 20px;
+    
+}
+
+.dateTitle{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.description{
+    display: flex;
+    height: 6rem;
+    margin-right:15rem;
+    margin-left: 15rem;
+    width: 52rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txt{
+    justify-self: center;
+    align-items: center;  
+}

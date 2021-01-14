@@ -1,0 +1,25 @@
+.main-footer {
+    color: black;
+    background-color: grey;
+    padding-top: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wrap {
+    margin-left: 40px;
+  }
+  
+  .symbolwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainwrapper{
+    padding-bottom: 2em;
+  }
