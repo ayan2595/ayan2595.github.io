@@ -9,9 +9,9 @@ import face from '../images/face.jpg'
 
 function Hero(props){
     return(
-        <Jumbotron className="bg-gray jumbotron-fluid p-0">
+        <Jumbotron className="bg-gray jumbotron-fluid">
             <Container fluid={true}>
-                <Row className="py-5">
+                <Row>
                 <Col md={3} sm={5}>
                     <img class="rounded-circle img-fluid" aspectRatio="16by9" src={face} alt="" />
                 </Col>
