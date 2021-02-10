@@ -41,8 +41,8 @@ function HomePage(props){
         <div className="dateTitle">
             <p><strong>March 2020 - Present</strong>: Digital Product Manager</p>
         </div>
-        <div className="description border border-dark" style={{margin: 'auto', justifyContent: 'center', verticalAlign: 'middle'}}>
-            <p style = {{marginBottom:0}}>Leading the delivery of Tripal’s new data driven footwear line and maintenance of their shoe sizing app.</p>
+        <div className="description border border-dark" style={{margin: 'auto', justifyContent: 'center', verticalAlign: 'middle', marginBottom: 10}}>
+            <p style = {{marginBottom:0}}>Leading the delivery of Tripal’s new data driven footwear line and maintenance of their foot measurement and sizing app.</p>
         </div>
         <div className="subheading">
             <h3>The University of Sheffield</h3>     
@@ -51,7 +51,7 @@ function HomePage(props){
             <p><strong>2017-2020</strong>: KTP Associate - Mobile App Developer & Additive Manufacturing Specialist</p>
         </div>
         <div className="description border border-dark" style={{margin: 'auto', justifyContent: 'center', verticalAlign: 'middle'}}>
-            <p style = {{marginBottom:0}}>Delivered an end-to-end system which captures and utilises user data to create personalised footwear by leveraging 3D printing.</p>
+            <p style = {{marginBottom:0}}>Delivered an end-to-end system which captures and processes user data to create personalised footwear by leveraging 3D printing.</p>
         </div>
         </div>
         <div className="headingwrapper">

@@ -6,14 +6,14 @@ body {
   }
   
   .title {
-    font-size: 15em;
+    display: flex;
+    font-size: 100px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     font-family: "Bebas Neue", sans-serif;
   }
   
-  h3 {
-    padding-top: 0.25em;
-  }
   .imagestyle{
     background-image:url("https://img.icons8.com/plasticine/2x/camera.png")
   }
