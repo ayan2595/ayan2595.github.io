@@ -7,16 +7,20 @@ import firebaselogo from '../images/firebase-icon.png'
 import gcplogo from '../images/gcp-icon.png'
 import jslogo from '../images/js-icon.png'
 import opencv from '../images/opencv.png'
+import sixsig from '../images/sixsig.jpg'
+import prince from '../images/prince.png'
+import agileba from '../images/agileba.png'
+import agilepm from '../images/agilepm.jpg'
 import reactnativelogo from '../images/RN-icon.png'
-import './Home.css'
+import './Home.scss'
 
 function HomePage(props){
 
     return(
-        <div style = {{ backgroundColor: 'white'}}>
+        <div id="bootstrap-overrides" style = {{ backgroundColor: 'white'}}>
         <Hero title ={props.title} subTitle={props.subTitle}/>
         <div className="headingwrapper">
-            <h1 className="heading">Education</h1>
+            <h1>Education</h1>
         </div>
         <div style = {{ marginLeft:10}}>
         <div className="subheading">
@@ -52,6 +56,9 @@ function HomePage(props){
         </div>
         <div className="description border border-dark" style={{margin: 'auto', justifyContent: 'center', verticalAlign: 'middle'}}>
             <p style = {{marginBottom:0}}>Delivered an end-to-end system which captures and processes user data to create personalised footwear by leveraging 3D printing.</p>
+            {/* <p style = {{marginTop:10, marginBottom:10}}>1) Designing an insole that generates the optiminal combination of comfort and performance.</p>
+            <p>2) Creating of a cross-platform mobile app that captures and processes the users foot data 
+             to produce an output that can be utilise by a 3D printer to create fully bespoke insoles.</p> */}
         </div>
         </div>
         <div className="headingwrapper">
@@ -81,9 +88,28 @@ function HomePage(props){
             <img class="img" src={firebaselogo} />
             <p style = {{ marginLeft : 10, alignSelf:'center' }}><strong>Firebase</strong></p>
         </div>
+        <div className="headingwrapper">
+            <h1 className="heading">Certifications</h1>
+        </div>
+        <div className="row" style = {{ marginLeft : 10, marginBottom: 10 }}>
+            <img className="img" src={prince} />
+            <p style = {{ marginLeft : 10, alignSelf:'center' }}><strong>PRINCE2 Foundation</strong></p>
+        </div>
+        <div className="row" style = {{ marginLeft : 10, marginBottom: 10 }}>
+            <img class="img" src={agileba} />
+            <p style = {{ marginLeft : 10, alignSelf:'center'}}><strong>Agile Business Analyst (AgileBA) Foundation</strong></p>
+        </div>
+        <div className="row" style = {{ marginLeft : 10, marginBottom: 10 }}>
+            <img class="img" src={agilepm}/>
+            <p style = {{ marginLeft : 10, alignSelf:'center' }}><strong>Agile Project Management (AgilePM) Foundation</strong></p>
+        </div>
+        <div className="row" style = {{ marginLeft : 10, marginBottom: 10 }}>
+            <img class="img" src={sixsig} />
+            <p style = {{ marginLeft : 10, alignSelf:'center' }}><strong>Six Sigma Green and Yellow Belt</strong></p>
+        </div>
         <div style = {{justifyContent:'center', alignItems:'center', margin:'auto'}}>
         <a href={PDF} without rel="noopener noreferrer" target="_blank">
-        <button style = {{ marginLeft : 10, marginBottom : 10, marginTop:10, justifySelf:'center', alignSelf:'center'}} trailingIcon="picture_as_pdf" label="Resume">
+        <button style = {{ marginLeft : 10, marginBottom : 10, marginTop:10, justifySelf:'center', alignSelf:'center', backgroundColor:'grey', fontWeight:'bold', width:300}} trailingIcon="picture_as_pdf" label="Resume">
         Full Resume/CV 2021- Click to view
         </button>
         </a>
