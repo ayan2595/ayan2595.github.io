@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import PDF from '../images/doc.pdf';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import pythonlogo from '../images/python.jpg'
+import pythonlogo from '../images/python.png'
 import firebaselogo from '../images/firebase-icon.png'
 import gcplogo from '../images/gcp-icon.png'
 import jslogo from '../images/js-icon.png'
@@ -40,25 +40,39 @@ function HomePage(props){
         </div>
         <div style = {{ marginLeft:10}}>
         <div className="subheading">
-            <h3>The Tripal Group</h3>     
+            <h3>Shelby Finance</h3>     
         </div>
         <div className="dateTitle">
-            <p><strong>March 2020 - Present</strong>: Digital Product Manager</p>
+            <p><strong>July 2021 - Present</strong>: Mobile Application Engineer</p>
         </div>
         <div className="description border border-dark" style={{margin: 'auto', justifyContent: 'center', verticalAlign: 'middle', marginBottom: 10}}>
-            <p style = {{marginBottom:0}}>Leading the delivery of Tripal’s new data driven footwear line and maintenance of their foot measurement and sizing app.</p>
+            <div style={{flexDirection:'column'}}>
+            <p style = {{marginBottom:10}}>Adding features to the 'UMoney' mobile banking app.</p>
+            </div>
         </div>
         <div className="subheading">
-            <h3>The University of Sheffield</h3>     
+            <h3>Tripal Group</h3>     
         </div>
         <div className="dateTitle">
-            <p><strong>2017-2020</strong>: KTP Associate - Mobile App Developer & Additive Manufacturing Specialist</p>
+            <p><strong>March 2020 - July 2021</strong>: Digital Product Manager</p>
+        </div>
+        <div className="description border border-dark" style={{margin: 'auto', justifyContent: 'center', verticalAlign: 'middle', marginBottom: 10}}>
+            <div style={{flexDirection:'column'}}>
+            <p style = {{marginBottom:10}}>Served in a dual role capacity.</p>
+            <p style = {{marginBottom:10}}>As a Developer, maintained and added new features to the 'FootGauge' app.</p>
+            <p style = {{marginBottom:0}}>As the Digital Product Manager, lead the delivery of Tripal's data driven footwear accesories and the licensing/sales programme for 'FootGauge'.</p>
+            </div>
+        </div>
+        <div className="subheading">
+            <h3>Tripal Group</h3>     
+        </div>
+        <div className="dateTitle">
+            <p><strong>2017-2020</strong>: KTP Associate - Mobile App Developer & 3D Printing Engineer</p>
         </div>
         <div className="description border border-dark" style={{margin: 'auto', justifyContent: 'center', verticalAlign: 'middle'}}>
-            <p style = {{marginBottom:0}}>Delivered an end-to-end system which captures and processes user data to create personalised footwear by leveraging 3D printing.</p>
-            {/* <p style = {{marginTop:10, marginBottom:10}}>1) Designing an insole that generates the optiminal combination of comfort and performance.</p>
-            <p>2) Creating of a cross-platform mobile app that captures and processes the users foot data 
-             to produce an output that can be utilise by a 3D printer to create fully bespoke insoles.</p> */}
+            <p style = {{marginBottom:0}}>Delivered an end-to-end system which captures and processes user data to create personalised footwear by leveraging 3D printing. As a part of this project, was the sole developer of Tripal's 'FootGauge' app, available now on the 
+            <a target="_blank" href="https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?mt=8&amp;path=apps%2fFootGauge" style={{color:'blue'}}> Apple App Store </a> and 
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.Tripal.FootPal" style={{color:'blue'}}> Google Play Store</a>.</p>
         </div>
         </div>
         <div className="headingwrapper">

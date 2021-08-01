@@ -1,7 +1,7 @@
 import './About.css'
 import { ReactComponent as ShoeIcon } from "../images/shoe.svg"
 import { ReactComponent as PhoneIcon } from "../images/phone.svg";
-import { ReactComponent as qualIcon } from "../images/qual.png";
+import { ReactComponent as QualIcon } from "../images/trophy.svg";
 import code from '../images/code.png'
 import hello from '../images/hello.png'
 import ftbd1 from '../images/ftbd1.png'
@@ -45,9 +45,9 @@ function App() {
     <div id="bootstrap-overrides">
       <div style={{backgroundColor:'grey', paddingBottom: 20, paddingTop: 10}}>
       <h2 className="title">About Me</h2>
-      <p style={{marginLeft:50, marginRight:50}}><strong>I graduated from the University of Sheffield with a First Class Honours in Mechanical Engineering in 2017.
-        I am currently the Digital Product Manager at Tripal Group, leading
-        their digital transformation which includes creating a mobile app for user foot data capture, utilising 3D printing for manufacturing bespoke
+      <p style={{marginLeft:50, marginRight:50}}><strong>I graduated from the University of Sheffield in 2017 with a First Class Honours in Mechanical Engineering.
+        I am currently a Mobile Application Engineer at Shelby Finance, developing features on their 'UMoney' banking app. Previously, I was Tripal Group's Digital Product Manager, leading
+        their digital transformation which included creating a mobile app for user foot data capture, utilising 3D printing for manufacturing bespoke
         products and using data to drive footwear design. My hobbies and interests include: Running <FaRunning style={{color: 'white'}}/>, 
         Table Tennis <FaTableTennis style={{color: 'white'}}/>, cooking <GiKitchenScale style={{color: 'white'}}/>, and studying
         about nutrition <IoMdNutrition style={{color: 'white'}}/>. 
@@ -74,15 +74,15 @@ function App() {
         >
           <h4 className="vertical-timeline-element-title" style={{marginBottom:20}}>Market Research - 3D Data Capture Systems</h4>
           <img class="img-fluid" aspectRatio="16by9" src={scanner} alt="" />
-          <p>Market Research revealed that developing a cross-platform mobile app to capture customer foot data as opposed to setting up physical 3D scanning stations across the UK, would
-            save Tripal over £200,000 in equipment, training and logistical costs; this would also reach a lot more end users compared to the physical systems.</p>
+          <p>Market research of existing 3D foot data capture systems from foam impression kits to 3D scanners revealed that developing a cross-platform mobile app to capture customer foot data as opposed to setting up physical 3D 
+            scanning stations across the UK, would save Tripal over £200,000 in equipment, training and logistical costs; the app would also have a wider end user reach.</p>
         </VerticalTimelineElement>
       <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="December 2017"
           contentStyle={{ background: 'green' }}
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<qualIcon />}
+          iconStyle={{ background: 'goldenrod', color: '#fff' }}
+          icon={<QualIcon/>}
         >
         <h4 style ={{color:'white'}}>PRINCE2 Foundation Certification</h4>
         </VerticalTimelineElement>
@@ -120,8 +120,8 @@ function App() {
           <h4 className="vertical-timeline-element-title" style={{marginBottom:20}}>R&D for 3D printed insoles</h4>
           <img class="img-fluid" aspectRatio="16by9" src={exp} alt="" />
           <p>
-          To design a 3D printed insole, it was crucial to investigate the relationship between biomechanical parameters such as contact area and peak pressure and
-          underfoot comfort.
+          To design a 3D printed insole, it was crucial to investigate the relationship between perceived underfoot comfort and 
+          critical biomechanical parameters such as underfoot contact area and peak pressure.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -133,7 +133,7 @@ function App() {
           <h4 className="vertical-timeline-element-title" style={{marginBottom:20}}>Insole Prototypes</h4>
           <img class="img-fluid" aspectRatio="16by9" src={ftbd2} alt="" />
           <p>
-          Created a set of modular insoles with different materials and design features based on the initial research and testing.
+          Designed and manufactured a set of modular insoles with different materials and design features based on the initial research and testing.
           These were utilised for ethically approved user trials.
           </p>
         </VerticalTimelineElement>
@@ -141,8 +141,8 @@ function App() {
           className="vertical-timeline-element--work"
           date="February 2019"
           contentStyle={{ background: 'green' }}
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<qualIcon />}
+          iconStyle={{ background: 'goldenrod', color: '#fff' }}
+          icon={<QualIcon/>}
         >
         <h4 style ={{color:'white'}}>Agile Project Management Foundation Certification</h4>
         </VerticalTimelineElement>
@@ -152,19 +152,19 @@ function App() {
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<ShoeIcon/>}
         >
-          <h4 className="vertical-timeline-element-title" style={{marginBottom:20}}>User Trials</h4>
+          <h4 className="vertical-timeline-element-title" style={{marginBottom:20}}>Insole User Trials</h4>
           <img class="img-fluid" aspectRatio="16by9" src={exp2} alt="" />
           <p>
           Data from the user trials was utilised to establish a correlation between the different insole design metrics and its
-          effect on overall underfoot comfort.
+          effect on overall underfoot comfort, helping identify the design features critical for enhancing comfort and perfomance.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="April 2019"
           contentStyle={{ background: 'green' }}
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<qualIcon />}
+          iconStyle={{ background: 'goldenrod', color: '#fff' }}
+          icon={<QualIcon/>}
         >
         <h4 style ={{color:'white'}}>Six Sigma Green and Yellow Belt Certification</h4>
         </VerticalTimelineElement>
@@ -187,11 +187,11 @@ function App() {
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<PhoneIcon/>}
         >
-          <h4 className="vertical-timeline-element-title" style={{marginBottom:20}}>App UI completion</h4>
-          <img class="img-fluid" aspectRatio="16by9" src={iteratve} alt="" />
+          <h4 className="vertical-timeline-element-title" style={{marginBottom:20}}>Python Algorithm</h4>
+          <img class="img-fluid" aspectRatio="16by9" src={skin} alt="" />
           <p>
-            Created version 1 of the App UI, which had the ability to capture a birds eye view of the users image and process it to
-            produce an accurate shoe size recommendation for any shoe style.
+            Implemented Python's OpenCV library to create an algorithm that utilised an A4 paper as reference to measure the metrics of the foot
+            critical for generating personalised product recommendations and manufacturing bespoke footwear products.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -205,31 +205,30 @@ function App() {
           <img class="img-fluid" aspectRatio="16by9" src={cloudstorage} alt="" />
           <p>
             Introduced GCP and Firebase for the Apps backend requirements. Firebase was utilised for user login
-            and store user images. GCP was utilised to host the python based image processing script as a 
-            cloud function which was triggered using HTTP endpoints in the UI.
+            and store user images. GCP was utilised to host the python based image processing script.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="December 2019"
           contentStyle={{ background: 'green' }}
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<qualIcon />}
+          iconStyle={{ background: 'goldenrod', color: '#fff' }}
+          icon={<QualIcon/>}
         >
         <h4 style ={{color:'white'}}>Agile Business Analyst Foundation Certification</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="February 2020"
+          date="March 2020"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<PhoneIcon/>}
         >
-          <h4 className="vertical-timeline-element-title" style={{marginBottom:20}}>Python Algorithm</h4>
-          <img class="img-fluid" aspectRatio="16by9" src={skin} alt="" />
+          <h4 className="vertical-timeline-element-title" style={{marginBottom:20}}>App UI completion</h4>
+          <img class="img-fluid" aspectRatio="16by9" src={iteratve} alt="" />
           <p>
-            Implemented Python's OpenCV library to create an algorithm that utilised an A4 paper as reference to measure the critical metrics of the foot. 
-            These measurements were then matched to dimensions of the selected footwear to produce an accurate shoe
-            sizing recommendation.
+            Created <strong>version 1.0</strong> of the App UI, which had the ability to capture a bird's eye view of the users foot and process it to
+            produce a personalised footwear sizing recommendation for any supported shoe style. This would directly support the data collected
+            in <strong>version 2.0</strong> of the app, helping manufacture personalised insoles.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -270,13 +269,12 @@ function App() {
           <h4 className="vertical-timeline-element-title" style={{marginBottom:20}}>Arch Mapping</h4>
           <img class="img-fluid" aspectRatio="16by9" src={archimage} alt="" />
           <p>
-            Added the ability to map the contour of the arch and extract the users arch height allowing recommendation of semi-custom
-            'low', 'medium', 'high' arched insoles, or manufacture personalised 3D printed insole.
+          Integrating the ability to map the contour of the arch and extract the users arch height using the foot length collected during the sizing step as reference. This allows recommendation of semi-custom 'low', 'medium', 
+          'high' arched insoles, or the ability to manufacture fully personalised 3D printed insoles.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
-    //GCP, firebase, app store release
   );
 }
 
